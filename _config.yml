@@ -1,0 +1,137 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Murali Paluru
+title: Principal Software Engineer
+email: leodotcloud@gmail.com
+#website: www.github.com/leodotcloud
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: leodotcloud
+github_username:  leodotcloud
+# linkedin_username:
+# youtube_username:
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, my name's Murali and I'm a Principal Software Engineer. I have 15+ years of experience making software and have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>Go</mark>, <mark>Python</mark>, <mark>Kubernetes</mark>, <mark>Docker</mark>, <mark>C</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Rust</mark>, <mark>Javascript</mark>, <mark>AWS</mark>, <mark>CI/CD</mark> and <mark>DevOps</mark>.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: SUSE
+        link: https://www.suse.com
+        link_text: suse.com
+        sub_title: Principal Engineer
+        caption: November 2022 - Present
+        quote: >
+          All things about Containers, Cloud and Kubernetes!
+        description: |
+          Responsible for software development of various features, customer escalations, and managing product enhancement requests.
+      - layout: left
+        title: DataPelago
+#        link: https://www.suse.com
+#        link_text: SUSE
+        sub_title: MTS (Member of Technical Staff)
+        caption: February 2022 - November 2022
+        quote: >
+          Analyzing Data at scale!
+        description: |
+            Responsible for software development of various features of the Data Analytics Product.
+      - layout: left
+        title: SUSE
+        link: https://www.suse.com
+        link_text: suse.com
+        sub_title: Principal Software Engineer
+        caption: December 2020 - February 2022
+        quote: >
+          Yaay! Rancher got acquired by SUSE !!!
+        description: |
+          Responsible for software development of various features, customer escalations, and managing product enhancement requests.
+      - layout: left
+        title: Rancher Labs
+        link: https://www.rancher.com
+        link_text: rancher.com
+        sub_title: Principal Software Engineer
+        caption: May 2016 - December 2020
+        quote: >
+          Dive into Containers, Cloud and Kubernetes! Employee #26 @ Rancher.
+        description: |
+          Responsible for software development of various features and dealing with customer escalations.
+      - layout: left
+        title:  Stealth Startup
+        sub_title: Principal Software Engineer
+        caption: December 2015 - May 2016
+        quote: >
+          An attempt to productionize Containers ...
+        description: |
+          Responsible for software development of various features for a CaaS platform.
+      - layout: left
+        title:  Gigamon
+        sub_title: Principal Software Engineer
+        caption: November 2013 - December 2015
+        quote: >
+          Enabling visibility in Enterprise network traffic.
+        description: |
+          Responsible for software development of various features in networking devices.
+      - layout: left
+        title: Cisco
+        sub_title: Software Engineer
+        caption: Jul 2010 - Nov 2013
+        quote: >
+          Plumbing pipelines for the world wide Internet!
+        description: |
+          Responsible for software development of various features in networking devices.
+
+      - layout: left
+        title: Cisco
+        sub_title: Software Engineer
+        caption: Jun 2006 - Oct 2008
+        quote: >
+          Plumbing pipelines for the world wide Internet!
+        description: |
+          Responsible for software development of various features in networking devices.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Purdue University
+        caption: 2009 - 2011
+        sub_title: M.S. (Master of Science)
+
+      - layout: left
+        title: BITS Pilani
+        caption: 2002 - 2006
+        sub_title: B.E. (Bachelor of Engineering)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude:
+  - .idea
